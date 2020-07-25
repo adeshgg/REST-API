@@ -5,7 +5,7 @@ const express = require("express");
 
 const app = express();
 
-mongoose.connect("mongodb+srv://admin-adesh:test-123@cluster0.7si5o.mongodb.net/<wikiDBDep>?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.7si5o.mongodb.net/<wikiDBDep>?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true});
 
 const articleSchema = {
     title : String,
